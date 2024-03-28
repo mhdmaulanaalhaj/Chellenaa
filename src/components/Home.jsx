@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div id="home" className="w-full h-screen px-5 lg:px-[72px]">
+    <div
+      id="home"
+      className="w-full h-screen px-5 lg:px-[72px]"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className=" h-screen max-w-[700px] flex flex-col justify-center gap-y-5">
         <h1 className="font-bold text-orange-500 text-[20px]">
           GET A BETTER ADVICE

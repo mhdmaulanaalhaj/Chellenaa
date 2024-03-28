@@ -38,7 +38,11 @@ export default function Slideyy() {
     ],
   };
   return (
-    <div className="slider-container my-10 px-5 lg:px-[72px]">
+    <div
+      className="slider-container my-10 px-5 lg:px-[72px]"
+      data-aos="fade-right"
+      data-aos-duration="3000"
+    >
       <Slider {...settings}>
         {sakit.map((item) => {
           return (

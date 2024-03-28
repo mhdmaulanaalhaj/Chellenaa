@@ -5,8 +5,8 @@ export default function Banner() {
   return (
     <div
       className="px-5 lg:px-[72px] flex flex-col gap-y-4 mt-5"
-      data-aos="fade-up"
-      data-aos-duration="5000"
+      data-aos="fade-left"
+      data-aos-duration="3000"
     >
       <h3 className="text-orange-500 text-[20px] font-bold">3 STEPS QUICK</h3>
       <h1 className="font-bold text-3xl">Claim Your Better Health</h1>

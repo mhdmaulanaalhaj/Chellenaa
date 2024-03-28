@@ -1,14 +1,15 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
   return (
-    <div
-      id="home"
-      className="w-full h-screen px-5 lg:px-[72px]"
-      data-aos="fade-up"
-      data-aos-duration="3000"
-    >
-      <div className=" h-screen max-w-[700px] flex flex-col justify-center gap-y-5">
+    <div id="home" className="w-full h-screen px-5 lg:px-[72px]">
+      <div
+        className=" h-screen max-w-[700px] flex flex-col justify-center gap-y-5"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h1 className="font-bold text-orange-500 text-[20px]">
           GET A BETTER ADVICE
         </h1>
@@ -28,3 +29,4 @@ export default function Home() {
     </div>
   );
 }
+AOS.init();

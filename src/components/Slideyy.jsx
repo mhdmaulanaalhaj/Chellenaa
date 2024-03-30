@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { sakit } from "../data/dummy";
 
 export default function Slideyy() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: false,
     speed: 500,
@@ -39,10 +39,14 @@ export default function Slideyy() {
   };
   return (
     <div
-      className="slider-container my-10 px-5 lg:px-[72px]"
+      className="slider-container my-10 px-5 lg:px-[72px] mt-[80px]"
       data-aos="fade-right"
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
+      <h1 className="font-bold text-[16px] lg:text-[20px] text-orange-500">
+        SECURE YOUR HEART
+      </h1>
+      <h1 className="text-[24px] lg:text-[30px] font-bold">Our Best Doctor</h1>
       <Slider {...settings}>
         {sakit.map((item) => {
           return (

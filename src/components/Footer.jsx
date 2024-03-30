@@ -28,7 +28,7 @@ export default function Footer() {
           We develop an app to allow you to improve your health better in the
           great way
         </p>
-        <div className="w-full h-[50px] lg:h-[70px] flex ">
+        <div className="w-full h-[50px] lg:h-[70px] flex cursor-pointer ">
           <img src={apps} alt="" className="w-[300px] h-full " />
           <img src={googlePlay} alt="" className="w-[300px] h-full " />
         </div>
